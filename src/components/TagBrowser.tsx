@@ -133,7 +133,7 @@ const TagsBrowser: React.FC = () => {
   };
 
   return (
-    <Flex alignItems="center" justifyContent="center" pt={['3', 0]}>
+    <Flex alignItems="center" justifyContent="center" pt='0'>
       <Box w={['sm', 'md', '3xl']}> {
         // 0px
         // ~480px. em is a relative unit and is dependant on the font-size.
