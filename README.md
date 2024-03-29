@@ -2,7 +2,9 @@
 
 ## Opis
 
-Tags Browser to aplikacja webowa umożliwiająca przeglądanie i wyszukiwanie tagów technologii. Projekt został zbudowany z wykorzystaniem [React](https://reactjs.org/), [Chakra UI](https://chakra-ui.com/) dla stylizacji oraz [Storybook](https://storybook.js.org/) do dokumentacji i testowania komponentów UI.
+Tags Browser to zaawansowana aplikacja webowa dedykowana przeglądaniu i wyszukiwaniu tagów technologii, stworzona z myślą o użytkownikach platformy Stack Overflow. Ten projekt łączy w sobie nowoczesne technologie, takie jak [React](https://reactjs.org/) dla dynamicznego i responsywnego interfejsu użytkownika, [Chakra UI](https://chakra-ui.com/) dla eleganckiej i spójnej stylizacji, oraz [Storybook](https://storybook.js.org/), który służy do dokumentacji i testowania komponentów UI. Całość została zaprojektowana w taki sposób, aby efektywnie wykorzystywać limity darmowego API Stack Exchange, dzięki czemu maksymalizowana jest ilość dostępnych operacji bez konieczności przekraczania bezpłatnego progu.
+
+Kładąc szczególny nacisk na optymalizację procesów związanych z zapytaniami do API, aplikacja oferuje użytkownikom szybkie i efektywne wykonanie zadania, minimalizując czas oczekiwania na odpowiedź. Inteligentne cachowanie odpowiedzi oraz optymalizacja zapytań gwarantują płynny i szybki dostęp do danych. Dzięki temu, Tags Browser nie tylko wykorzystuje w pełni dostępne zasoby, ale także zapewnia wyjątkowo szybką responsywność, stając się przy tym aplikacją wyjątkowo przyjazną dla użytkownika.
 
 ## Funkcjonalności
 
