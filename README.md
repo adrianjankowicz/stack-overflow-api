@@ -17,25 +17,25 @@ Aby uruchomić projekt lokalnie, wykonaj poniższe kroki:
 1. Sklonuj repozytorium projektu:
 
 ```bash
-  git clone https://github.com/adrianjankowicz/stack-overflow-api.git
+git clone https://github.com/adrianjankowicz/stack-overflow-api.git
 ```
 
 2. Przejdź do katalogu projektu:
 
 ```bash
-  cd tags-browser
+cd stack-overflow-api
 ```
 
 3. Zainstaluj zależności:
 
 ```bash
-  npm install
+npm install
 ```
 
 4. Uruchom projekt:
 
 ```bash
-  npm start
+npm start
 ```
 
 
@@ -46,7 +46,7 @@ Projekt zostanie uruchomiony na `http://localhost:3000`.
 Aby uruchomić Storybook i zobaczyć komponenty UI, wykonaj następujący krok:
 
 ```bash
-  npm run storybook
+npm run storybook
 ```
 
 
