@@ -23,37 +23,6 @@ const TagsBrowser: React.FC = () => {
   useEffect(() => setTags([]), []);
 
   useEffect(() => {
-    setIsLoading(true);
-
-    api.get<TagsResponse>('tags', {
-      params: {
-        order: sortOrder,
-        sort: 'popular',
-        site: 'stackoverflow',
-        page: 1,
-        pagesize: 100,
-      },
-    })
-      .then(response => {
-        const newTags = response.data.items;
-
-        if (newTags.length < 100) {
-          setAllTagsLoaded(true);
-        }
-
-        setTags(newTags);
-      })
-      .catch(err => {
-        const errorMessage = err.response.data.error_message || 'Failed to load tags. Please try again.';
-        setError(errorMessage);
-      })
-      .finally(() => {
-        setIsLoading(false);
-      });
-  }, []);
-
-
-  useEffect(() => {
     const needMoreData = tags.length - 30 < page * pageSize && page * pageSize <= MAX_PAGES_WITHOUT_TOKEN && !allTagsLoaded && !error && !isFetching;
 
     if (page * pageSize > MAX_PAGES_WITHOUT_TOKEN) {
